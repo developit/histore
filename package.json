@@ -1,0 +1,31 @@
+{
+  "name": "histore",
+  "version": "1.0.0",
+  "description": "200b key-value store backed by navigation state.",
+  "main": "dist/histore.js",
+  "scripts": {
+    "build": "microbundle *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-developit"
+  },
+  "keywords": [
+    "storage",
+    "history",
+    "database",
+    "localstorage",
+    "sessionstore",
+    "session"
+  ],
+  "files": [
+    "dist",
+    "histore.js"
+  ],
+  "author": "Jason Miller <jason@developit.ca>",
+  "license": "apache-2.0",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-developit": "^1.1.1",
+    "microbundle": "^0.4.4"
+  }
+}
