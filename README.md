@@ -1,4 +1,10 @@
-# Histore
+<p align="center">
+  <img src="https://i.imgur.com/zN9xe7D.png" width="300" height="300" alt="histore">
+  <h1 align="center">
+  	Histore
+	<a href="https://www.npmjs.org/package/histore"><img src="https://img.shields.io/npm/v/histore.svg?style=flat" alt="npm"></a>
+  </h1>
+</p>
 
 Histore __[his·to·ry]__: a 200b key-value store backed by navigation state.
 
