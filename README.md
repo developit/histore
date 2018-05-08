@@ -12,6 +12,8 @@ Does the fact that `sessionStorage`/`localStorage` is shared across tabs have yo
 
 Don't worry, here's a strange but widely supported way to store 640kb of object data in a page's navigation state.
 
+[View Demo on JSFiddle](https://jsfiddle.net/developit/8Ltn29a5/)
+
 ## Usage
 
 ```js
