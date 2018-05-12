@@ -12,13 +12,13 @@
  */
 
 export default function histore() {
-	let get = key => history.state && history.state[key];
-	let set = (key, value) => {
-		let state = {};
+	const get = key => history.state && history.state[key];
+	const set = (key, value) => {
+		const state = {};
 		state[key] = value;
 		history.replaceState(state);
 	};
-	let wrap = m => (state, title, url) => (
+	const wrap = m => (state, title, url) => (
 		m.call(history, Object.assign({}, history.state, state || {}), title, url)
 	);
 	history.pushState = wrap(history.pushState);
